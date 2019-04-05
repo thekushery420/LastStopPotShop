@@ -40,6 +40,7 @@
     background-color: #92ECF1;
     position: relative;
     border-bottom: 3px solid green;
+    height:230px;
   }
 
   /* placing logo in center */
@@ -69,9 +70,25 @@ h1{
     display: none;
   } 
 
+  #navpic{
+  height:230px;
+  }
+
+
+
+
+
+
 
 
 /* mobile */
+
+
+
+
+
+
+
 
     /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
     Show the link that contains should open and close the topnav (.icon) */
@@ -107,8 +124,17 @@ h1{
       }
   
      
-    
-
+    /* postiion logo on nav bar */
+      #logo{
+        position: absolute;
+        top: -9972px;
+        bottom: -9559px;
+        left: -9999px;
+        right: -9960px;
+        margin: auto;
+        height:160px;
+        width:300px;
+      }
   
 
 
