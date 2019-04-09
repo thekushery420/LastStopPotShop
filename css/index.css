@@ -1,0 +1,91 @@
+/* adding background behind container */
+  /* body {
+    background: url("/images/highEndFarms.png") fixed center center;
+} */
+
+/* Making logobox scrollable */
+.LogoBox{
+    overflow-y: scroll;
+    height:300px;
+}
+
+/* Resizing logos */
+.logos{
+    height: 100px;
+    width: 270px;
+}
+
+/* centering vendors text  */
+#vendorsText{
+    text-align: center;
+}
+
+.item img{
+    margin:auto;
+    height: 100px;
+    width: 270px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

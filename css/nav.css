@@ -1,13 +1,13 @@
-/* importing custom font to load when site is hosted */
-@font-face{
-  font-family: LSPSImport;
-  src: url("Old\ Figaro\ Cursive.ttf")
-}
+    /* importing custom font to load when site is hosted */
+    @font-face{
+      font-family: LSPSImport;
+      src: url("Old\ Figaro\ Cursive.ttf")
+    }
 
-  /* making nav bar stick to top */
-    .navigation{
-      position: -webkit-sticky; 
-  } 
+    /* making nav bar stick to top */
+      .navigation{
+        position: -webkit-sticky; 
+    } 
   
   /* heading 1 background color */
   .topnav {
@@ -23,11 +23,11 @@
       font-family: "Poor Richard",Arial, Helvetica, sans-serif;
     }
   
-  /* centering the <a> in the nav and adding padding */
-  #myTopnav{
-      text-align: center;
-      height:125px; 
-  }
+    /* centering the <a> in the nav and adding padding */
+    #myTopnav{
+        text-align: center;
+        height:125px; 
+      }
 
     /* Change the color of links on hover */
     .topnav a:hover {
@@ -53,25 +53,26 @@
     margin: auto;
   }
 
-  /* last stop pot shop text placed in center and middle of div
-  color,size changed */
-h1{
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
- font-family: "AR CHRISTY", Arial, Helvetica, sans-serif;
- font-size: 70px;
- -webkit-text-stroke: 1.5px yellow;
-}
+    /* last stop pot shop text placed in center and middle of div
+    color,size changed */
+  h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  font-family: "AR CHRISTY", Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  -webkit-text-stroke: 1.5px yellow;
+  }
 
   /* Hide the hamburger that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
   } 
 
+  /* main nav pic */
   #navpic{
-  height:230px;
+  height:226.5px;
   }
 
 
@@ -127,15 +128,29 @@ h1{
     /* postiion logo on nav bar */
       #logo{
         position: absolute;
-        top: -9972px;
+        top: -9952px;
         bottom: -9559px;
         left: -9999px;
         right: -9960px;
         margin: auto;
-        height:160px;
-        width:300px;
+        height:150px;
+        width:290px;
       }
   
+
+      /* main nav pic */
+      #navpic{
+        height:200px;
+        width:100%;
+        }
+
+
+        #header_two{
+          background-color: #92ECF1;
+          position: relative;
+          border-bottom: 1.5px solid green;
+          height:202.5px;
+        }
 
 
 

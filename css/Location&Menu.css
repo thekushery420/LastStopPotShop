@@ -1,0 +1,11 @@
+/* Resizing products */
+.item img{
+    margin:auto;
+    height: 100px;
+    width: 270px;
+}
+
+/* .products{
+    height: 100px;
+    width: 270px;
+} */
