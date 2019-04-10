@@ -1,18 +1,37 @@
 /* adding background behind container */
-  /* body {
-    background: url("/images/highEndFarms.png") fixed center center;
-} */
+  body {
+    background: url("/images/bgimage2.jpg");
+}
+
+/* chaning background color of bootstrap container  */
+.container{
+    background-color:#92ECF1;
+}
+
+
+
+/* changing color of the dots in the ul */
+ul{
+    color:pink; 
+}
+
+/* changing vendor text color */
+#vendorsText{
+color:black; 
+}
 
 /* Making logobox scrollable */
 .LogoBox{
     overflow-y: scroll;
-    height:300px;
+    height:600px;
+    /* overflow:hidden' */
 }
 
 /* Resizing logos */
 .logos{
     height: 100px;
     width: 270px;
+    border:3px solid green;
 }
 
 /* centering vendors text  */
@@ -20,31 +39,44 @@
     text-align: center;
 }
 
+/* Resizing daily specials */
 .item img{
     margin:auto;
     height: 100px;
-    width: 270px;
-    
+    width: 270px;  
 }
 
+/* centering, changing color and size of about me text */
+.about_me{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color:black;
+    border:2px solid green;
+    margin-top: 5px;
+}
+ 
+/* centering, changing color and size of daily specials text */
+#dailySpecials{
+    text-align: center;
+    color:black;
+    font-size: 26px;
+}
 
+/* reiszing social media icons */
+.socialMediaIcons{
+    height:22px;
+    width: 22px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* centering social media */
+.socialMedia{
+    text-align: center;
+}
+/* changing text color of social media */
+.socialMedia p{
+    color:black;
+}
 
 
 
