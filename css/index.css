@@ -9,7 +9,6 @@
 }
 
 
-
 /* changing color of the dots in the ul */
 ul{
     color:pink; 
@@ -24,7 +23,6 @@ color:black;
 .LogoBox{
     overflow-y: scroll;
     height:600px;
-    /* overflow:hidden' */
 }
 
 /* Resizing logos */
@@ -42,8 +40,7 @@ color:black;
 /* Resizing daily specials */
 .item img{
     margin:auto;
-    height: 100px;
-    width: 270px;  
+    width: 330px;  
 }
 
 /* centering, changing color and size of about me text */
@@ -78,15 +75,11 @@ color:black;
     color:black;
 }
 
-
-
-
-
-
-
-
-
-
+/* making carousel continer larger */
+#myCarousel{
+    height:180px;
+    
+}
 
 
 
