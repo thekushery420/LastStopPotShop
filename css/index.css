@@ -80,11 +80,38 @@ color:black;
     font-size: 18px;
 }
 
-
 /* making carousel continer larger */
 #myCarousel{
     height:180px;  
 }
+
+/* placing instawrap in center of page */
+.insta-wrap{
+    margin:15px auto 0 60px;
+}
+
+/* centering instagram feed text */
+.instagramFeedText{
+    text-align: center;
+    font-family: "Monotype Corsiva",Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: red;
+    padding-top: 5px;
+}
+
+/* addiing padding around instafeed imgs */
+#instafeed img{
+   padding:3px;
+   padding-bottom: 12px;
+   opacity: 0.8;
+  
+}
+/* hover effect on instafeed imgs */
+#instafeed img:hover{
+    opacity:1;
+}
+
+
 
 
 /* Mobile */
@@ -120,10 +147,20 @@ text-align: center;
     border-bottom: 6px solid green;
 }
 
+/* placing images in a table in mobile version */
+#instafeed img{
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+ }
+
+/* placing instawrap in center of page */
+.insta-wrap{
+    margin:8px auto 0 13px;
+}
 
 
-
-
+}
 
 
 

@@ -4,12 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home - Last Stop Pot Shop</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/site.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <title>Home - Last Stop Pot Shop</title>
+  <script type="text/javascript" src="js/instafeed.js"></script>
+
+<script type="text/javascript">
+var feed = new Instafeed({
+get: 'user',
+userId: '3205530533',
+accessToken: '3205530533.1677ed0.7807885b96bd4b8b89df753c19c36150',
+limit:12
+});
+feed.run();
+</script>
+
 </head>
 
 <header>
@@ -84,13 +96,23 @@
         <br>
         <div class="socialMedia">
           <p>Make sure to follow us and stay connected!</p>
-          <a href="default.asp">
+          <a href="https://www.facebook.com/Last-Stop-Goldbar-305925403683077/?modal=admin_todo_tour">
               <img class="socialMediaIcons" src="images/fb_icon.png" alt="Facebook Icon">
             </a>
             <a href="https://www.instagram.com/lsps502/">
                 <img class="socialMediaIcons" src="images/ig_icon.jpg" alt="Instagram Icon">
             </a>
         </div>
+        <p class="instagramFeedText"> Live Instagram Feed</p>
+        <div class="insta-wrap">
+          
+          <!-- instafeed div -->
+          <div id="instafeed">
+            <!-- instagram picture will be dynamically loaded here  -->
+          </div>
+
+        </div>
+
       </div>
 
       <!-- col 2 -->
