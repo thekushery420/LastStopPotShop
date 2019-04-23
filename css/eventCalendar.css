@@ -5,3 +5,13 @@
     padding-top: 3px;
 }
 
+
+
+@media screen and (max-width: 600px){
+
+.calendar iframe{
+  height: 450px;
+   width:100%;
+}
+
+}
