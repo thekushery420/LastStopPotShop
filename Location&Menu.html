@@ -54,12 +54,41 @@
                 </div>
             </div>
 <hr>
+
+<style>
+#map{
+    height:320px;
+    width:100%;
+}
+</style>
             <!-- col 2 -->
             <div class="col-sm-6">
                 <div class="map">
                    <p>41711 Highway 2, Bldg 1,<br>Gold Bar, WA 98251</p>
                    <p>(360) 217-8951</p>
-                    <img src="images/LSPS_map.JPG">
+                   <div id="map"></div>
+                   <script>
+                       function initMap(){
+                        //    map options
+                           var options = {
+                               zoom:13,
+                               center: {lat:47.7511, lng: -120.7401 }
+                           }
+                            // new map
+                           var map = new 
+                           google.maps.Map(document.getElementById("map"), options);
+
+                        //    adding marker
+                        var marker = new google.maps.Marker({
+                        position:{lat:47.844713, lng:-121.673466},
+                        map:map,
+                        });
+                       }
+                   </script>
+                   <script async defer
+                   src="https://maps.googleapis.com/maps/api/js?key=	
+                   AIzaSyDN-6EznKkOskC51nby1ELfBdtZbRC93Vo&callback=initMap">
+                   </script>
                 </div>
                 <div id="slideshow">
                     <h3 id="OurEmployees">Meet The Team</h3>
