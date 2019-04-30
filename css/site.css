@@ -1,0 +1,5 @@
+/* adding background behind container */
+body {
+    background: url("/images/bgimage2.jpg");
+
+}

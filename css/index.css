@@ -1,0 +1,195 @@
+
+
+
+
+/* adding background behind container */
+  /* body {
+    background: url("/images/bgimage2.jpg");
+} */
+
+/* chaning background color of bootstrap container  */
+.container{
+    background-color:#92ECF1;
+}
+
+/* changing color of the dots in the ul */
+ul{
+    color:pink; 
+}
+
+/* changing vendor text color */
+#vendorsText{
+color:black; 
+}
+
+/* Resizing logos */
+.logos{
+    height: 100px;
+    width: 270px;
+    border:3px solid green;
+}
+
+/* centering vendors text  */
+#vendorsText{
+    text-align: center;
+    font-family: "Castellar",Arial, Helvetica, sans-serif;
+}
+
+/* Resizing daily specials */
+.item img{
+    margin:auto;
+    width: 330px;  
+}
+
+/* a little about us text */
+#AboutUsText{
+    text-align: center;
+    font-family: "Ravie",Arial, Helvetica, sans-serif;
+}
+
+/* centering, changing color and size of about me text */
+.about_me {
+    text-align: center;
+    font-size: 20px;
+    padding-top:4px;
+    color:black;
+    border:2px solid green;
+    margin-top: 5px;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+}
+ 
+/* centering, changing color and size of daily specials text */
+#dailySpecials{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Ravie",Arial, Helvetica, sans-serif;
+}
+
+/* reiszing social media icons */
+.socialMediaIcons{
+    height:22px;
+    width: 22px;
+}
+
+/* centering social media */
+.socialMedia{
+    text-align: center;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* making carousel continer larger */
+#myCarousel{
+    height:180px;  
+}
+
+/* placing instawrap in center of page */
+.insta-wrap{
+    margin:15px auto 0 60px;
+}
+
+/* centering instagram feed text */
+.instagramFeedText{
+    text-align: center;
+    font-family: "Monotype Corsiva",Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: red;
+    padding-top: 5px;
+}
+
+/* addiing padding around instafeed imgs */
+#instafeed img{
+   padding:3px;
+   padding-bottom: 12px;
+   opacity: 0.8;
+  
+}
+/* hover effect on instafeed imgs */
+#instafeed img:hover{
+    opacity:1;
+}
+
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 1000px){
+
+/* centering, changing color and size of about me text */
+.about_me p{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 4px;
+    color:black;
+}
+
+/* a little about us text */
+#AboutUsText{
+text-align: center;
+}
+
+/* centering social media changing text size */
+.socialMedia p{
+    text-align: center;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    border-bottom: 6px solid green;
+}
+
+/* placing images in a table in mobile version */
+#instafeed img{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+ }
+
+/* placing instawrap in center of page */
+.insta-wrap{
+    margin:8px auto 0 13px;
+}
+
+/* Making logobox scrollable adjusting heihgt*/
+.LogoBox{
+    overflow-y: scroll;
+    height:600px; 
+}
+
+.LogoBox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

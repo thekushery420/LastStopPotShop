@@ -1,0 +1,159 @@
+/* Resizing products */
+.item img{
+    margin:auto;
+    height: 100px;
+    width: 270px;
+}
+
+
+
+
+
+/* resizing employee pictures and placiing picture in middle */
+.carousel-inner{
+    height: 190px;
+    width: 230px;
+    margin:auto;
+}
+
+/* reizing, center, padding on map */
+.map img{
+    height:200px;
+    width:90%;
+    /* padding: 10px 0 0 10px; */
+/* centering */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/* centering address with map  */
+.map p{
+    text-align: center;
+    /* padding-top: 10px; */
+    font-size: 16px;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+}
+
+.map h5{
+    text-align: center;
+}
+
+/* chaning background color of bootstrap container  */
+.container{
+    background-color:#92ECF1;
+}
+
+/* padding on carasol */
+#myCarousel{
+    padding:0 0 10px 0;
+}
+
+/* padding on entire carasol */
+#slideshow{
+    padding-bottom: 50px;
+}
+
+/* meet the team text */
+h3{
+    text-align: center;
+    font-family: "Ravie",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* centering store hours */
+#storeHours{
+    text-align: center;
+   font-size: 18px;
+   padding-top: 60px; 
+}
+
+h5{
+ font-size:18px;
+ font-family: "Ravie",Arial, Helvetica, sans-serif;
+}
+
+/* removing dots from unordered list */
+ul{
+    list-style-type: none;
+}
+
+#map{
+    height:100%;
+    width:100%;
+}
+/* centering menu and adding a border */
+.menu{
+text-align: center;
+border:green 1.5px solid;
+padding:0px 0 10px 30px;
+font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+margin-top: 20px;
+}
+
+/* "featured products" text */
+#storeImage p{
+    font-family: Ravie;
+    text-align: center;
+    font-size: 26px;
+    padding-top:5px;
+}
+
+/* styling menu button */
+.menu input{
+    font-size:17px;
+    color:green;
+    width:100px;
+    border:yellow 1px solid;
+}
+
+#storeImage img{
+    padding: 5px 0 10px 0;
+    height:200px;
+    width:90%;
+    /* centering */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+@media screen and (max-width: 600px){
+
+
+    #storeImage img{
+        padding: 5px 0 10px 0;
+        /* height:260px;
+        width:553px; */
+        height:70%;
+        width:90%;
+        /* centering */
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+/* reizing, center, padding on map */
+.map img{
+    height:100%;
+    width:100%;
+    padding: 10px 0 0 10px;
+/* centering */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+/* centering store hours */
+#storeHours{
+    text-align: center;
+   font-size: 18px;
+   padding-top: 0; 
+}
+
+
+
+}
+
