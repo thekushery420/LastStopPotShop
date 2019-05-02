@@ -12,8 +12,6 @@
   /* heading 1 background color */
   .topnav {
       background-color:#262626;
-  
-      
     }
     
     /* Style the links inside the navigation bar */
@@ -45,52 +43,48 @@
     height:230px;
   }
 
-  /* placing logo in center */
-  #logo{
-    position: absolute;
-    top: -9999px;
-    bottom: -9899px;
-    left: -9999px;
-    right: -9750px;
-    margin: auto;
+
+.logo img{
+  height:330px;
+  position: relative; 
+  top: -110px;
+  right:-90px;
+}
+
+
+ /* nav pic */
+ .column img {
+  height:221.5px;
   }
 
-    /* last stop pot shop text placed in center and middle of div
-    color,size changed */
-  h1{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-  font-family: "AR CHRISTY", Arial, Helvetica, sans-serif;
-  font-size: 70px;
-  -webkit-text-stroke: 1.5px yellow;
+
+  /* placing logo and nav pic side by side */
+  * {
+    box-sizing: border-box;
   }
+  
+  .column {
+    float: left;
+    width: 20.33%;
+    padding: 5px;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 
   /* Hide the hamburger that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
   } 
 
-  /* main nav pic */
-  #navpic{
-  height:226.5px;
-  }
-
-
-
-
-
-
-
-
+ 
 /* mobile */
-
-
-
-
-
-
 
 
     /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
@@ -106,7 +100,7 @@
     
     /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
      This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1000px) {
       .topnav.responsive {position: relative;}
       .topnav.responsive a.icon {
         position: absolute;
@@ -132,7 +126,7 @@
   
      
     /* postiion logo on nav bar */
-      #logo{
+      /* #logo{
         position: absolute;
         top: -9952px;
         bottom: -9559px;
@@ -141,14 +135,14 @@
         margin: auto;
         height:150px;
         width:290px;
-      }
+      } */
   
 
       /* main nav pic */
-      #navpic{
+      /* #navpic{
         height:200px;
         width:100%;
-        }
+        } */
 
 
         #header_two{
@@ -158,6 +152,14 @@
           height:202.5px;
         }
 
+ /* nav pic */
+ .column img {
+ height:195px;
+  }
 
+
+  .logo img{
+   display: none;
+  }
 
     } 

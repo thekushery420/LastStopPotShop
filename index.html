@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home - Last Stop Pot Shop</title>
@@ -11,16 +12,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/instafeed.js"></script>
-<!-- instafeed -->
-<script type="text/javascript">
-var feed = new Instafeed({
-get: 'user',
-userId: '3205530533',
-accessToken: '3205530533.1677ed0.723ba60015f347aa893b5fc7ba8a447d',
-limit:12
-});
-feed.run();
-</script>
+  <!-- instafeed -->
+  <script type="text/javascript">
+    var feed = new Instafeed({
+      get: 'user',
+      userId: '3205530533',
+      accessToken: '3205530533.1677ed0.723ba60015f347aa893b5fc7ba8a447d',
+      limit: 12
+    });
+    feed.run();
+  </script>
 
 </head>
 
@@ -30,6 +31,7 @@ feed.run();
   </div>
 </header>
 <br>
+
 <body>
   <!-- bootstrap container -->
   <div class="container">
@@ -38,11 +40,12 @@ feed.run();
       <div class="col-sm-8">
         <div class="about_me">
           <p>
-              <h2>A little about us</h2>
+            <h2>A little about us</h2>
             We are a licensed Washington state recreational marjuana retailer. Here you will find friendly and
             knowledgable budtenders.
             The Last Stop Pot Shop is the LAST STOP to stock up on all your goodies before heading over the pass. Enjoy
-            responsibly!</p>
+            responsibly!
+          </p>
         </div>
         <br>
         <div class="slideshow">
@@ -94,22 +97,20 @@ feed.run();
         <div class="socialMedia">
           <p>Make sure to follow us and stay connected!</p>
           <a href="https://www.facebook.com/Last-Stop-Goldbar-305925403683077/?modal=admin_todo_tour">
-              <img class="socialMediaIcons" src="images/fb_icon.png" alt="Facebook Icon">
-            </a>
-            <a href="https://www.instagram.com/lsps502/">
-                <img class="socialMediaIcons" src="images/ig_icon.jpg" alt="Instagram Icon">
-            </a>
+            <img class="socialMediaIcons" src="images/fb_icon.png" alt="Facebook Icon">
+          </a>
+          <a href="https://www.instagram.com/lsps502/">
+            <img class="socialMediaIcons" src="images/ig_icon.jpg" alt="Instagram Icon">
+          </a>
         </div>
         <p class="instagramFeedText"> Live Instagram Feed</p>
         <div class="insta-wrap">
-          
+
           <!-- instafeed div -->
           <div id="instafeed">
             <!-- instagram picture will be dynamically loaded here  -->
           </div>
-
         </div>
-
       </div>
 
       <!-- col 2 -->
@@ -160,7 +161,7 @@ feed.run();
 
   <!-- jquery & js scripts -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="js/site.js"></script>
 </body>
 
