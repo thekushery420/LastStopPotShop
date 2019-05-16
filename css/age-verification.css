@@ -21,7 +21,7 @@
 	z-index: 1101;
 	margin: 0 auto;
 	background-color:#fff;
-	border:4px solid #444;
+	border:7px solid green;
 	border-radius: 100%;
 	font-size: 12px;
 	width:290px; /* if you adjust it from the original 290px, adjust the difference in the width of #modal_content nav too */
