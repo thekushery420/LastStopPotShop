@@ -6,6 +6,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home - Last Stop Pot Shop</title>
+
+   <!-- Age Verification CSS -->
+   <link href="css/age-verification.css" rel="stylesheet">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/site.css">
@@ -17,7 +21,7 @@
     var feed = new Instafeed({
       get: 'user',
       userId: '3205530533',
-      accessToken: '3205530533.1677ed0.723ba60015f347aa893b5fc7ba8a447d',
+      accessToken: '3205530533.1677ed0.d510f7bcbf024ee092e707cb456616ea',
       limit: 12
     });
     feed.run();
@@ -142,9 +146,9 @@
               <img class="logos" src="images/highendfarms.png">
             </li>
             <br>
-            <li>
+            <!-- <li>
               <img class="logos" src="images/goldentree.png">
-            </li>
+            </li> -->
             <br>
             <li>
               <img class="logos" src="images/solargold.png">
@@ -161,7 +165,12 @@
 
   <!-- jquery & js scripts -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script src="js/age-verification.js"></script>
+
   <script type="text/javascript" src="js/site.js"></script>
 </body>
 
