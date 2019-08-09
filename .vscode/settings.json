@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "appService.defaultWebAppToDeploy": "/subscriptions/063cb68f-0450-43c4-8ac0-1274d9b7ced4/resourceGroups/kushery_website/providers/Microsoft.Web/sites/laststoppotshop",
+    "appService.deploySubpath": ""
 }
