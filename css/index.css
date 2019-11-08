@@ -14,7 +14,7 @@
 
 /* changing color of the dots in the ul */
 ul{
-    color:pink; 
+    color:black; 
 }
 
 /* changing vendor text color */
@@ -155,7 +155,8 @@ text-align: center;
 /* Making logobox scrollable adjusting heihgt*/
 .LogoBox{
     overflow-y: scroll;
-    height:600px; 
+    height:500px; 
+    
 }
 
 .LogoBox{
@@ -164,6 +165,9 @@ text-align: center;
     margin-right: auto;   
 }
 
+.col-sm-4{
+    text-align: center;
+}
 
 }
 
