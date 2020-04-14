@@ -5,11 +5,6 @@
     font-size:16px;
 }
 
-/* underlining specials days */
-h3{
-    text-decoration: underline;
-}
-
 /* chaning background color of bootstrap container  */
 .container{
     background-color:#92ECF1;
@@ -27,9 +22,9 @@ color:black;
 
 /* Resizing logos */
 .logos{
-    height: 100px;
+    height: 116px;
     width: 270px;
-    border:3px solid green;
+    /* border:3px solid green; */
 }
 
 /* centering vendors text  */
@@ -56,7 +51,7 @@ color:black;
     font-size: 20px;
     padding-top:4px;
     color:black;
-    border:2px solid green;
+    border-bottom:2px solid green;
     margin-top: 5px;
     font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
 }
@@ -64,8 +59,8 @@ color:black;
 /* centering, changing color and size of daily specials text */
 #dailySpecials{
     text-align: center;
-    font-size: 20px;
-    font-family: "Ravie",Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
 }
 #veteranDiscount{
 text-align: center;
@@ -73,8 +68,8 @@ font-size: 20px;
 }
 /* reiszing social media icons */
 .socialMediaIcons{
-    height:22px;
-    width: 20px;
+    height:24px;
+    width: 22px;
 }
 
 /* centering social media */
@@ -92,6 +87,22 @@ font-size: 20px;
 }
 
 
+/* centering menu and adding a border */
+.menu{
+    text-align: center;
+    border-bottom:green 1.5px solid;
+    border-top: green 1.5px solid;;
+    padding:0px 0 10px 30px;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 21.5px;
+    }
+    
+ 
+input{
+    background-color: red;
+    color: white;
+}
 /* Mobile */
 
 @media screen and (max-width: 1000px){
@@ -121,11 +132,11 @@ text-align: center;
 }
 
 /* placing images in a table in mobile version */
-#instafeed img{
+/* #instafeed img{
   float: left;
   width: 33.33%;
   padding: 5px;
- }
+ } */
 
 /* placing instawrap in center of page */
 .insta-wrap{
@@ -148,6 +159,16 @@ text-align: center;
 .col-sm-4{
     text-align: center;
 }
+
+
+.menu p{
+  font-size: 20px;
+    }
+    
+
+
+
+
 
 }
 
