@@ -2,7 +2,7 @@
 .specialtext{
     text-align: center;
     color:white;
-    font-size:16px;
+    font-size:20px;
 }
 
 /* chaning background color of bootstrap container  */
@@ -64,7 +64,9 @@ color:black;
 }
 #veteranDiscount{
 text-align: center;
-font-size: 20px;
+font-size: 22px;
+font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+color:black;
 }
 /* reiszing social media icons */
 .socialMediaIcons{
@@ -80,15 +82,33 @@ font-size: 20px;
     padding: 0 0 10px 0;
 }
 
-/* making carousel continer larger adding background */
-#myCarousel{
-    height:295px;  
-    background-color: black;
+/* aligning instagram to center */
+#instafeed{
+    text-align: center;
+ 
 }
 
 
+
+/* making carousel continer larger adding background */
+#myCarousel{
+    height:295px;
+    font-size: 20px;  
+    background-color: black;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+}
+.onlineOrdering p{
+    color: black;
+    font-size: 22px;
+    font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
+}
+
+.item ul li{
+    text-decoration: none;
+}
+
 /* centering menu and adding a border */
-.menu{
+/* .menu{
     text-align: center;
     border-bottom:green 1.5px solid;
     border-top: green 1.5px solid;;
@@ -96,7 +116,7 @@ font-size: 20px;
     font-family: "Bodoni MT",Arial, Helvetica, sans-serif;
     margin-top: 20px;
     font-size: 21.5px;
-    }
+    } */
     
  
 input{
@@ -143,7 +163,7 @@ text-align: center;
     margin:8px auto 0 13px;
 }
 
-/* Making logobox scrollable adjusting heihgt*/
+/* Making logobox scrollable adjusting height*/
 .LogoBox{
     overflow-y: scroll;
     height:500px; 

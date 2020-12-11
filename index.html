@@ -17,6 +17,10 @@
       "url" : "http://laststoppotshop.com/",
       "sameAs" : ["https://www.facebook.com/Last-Stop-Goldbar-305925403683077/"]
     }
+
+
+    $ GET
+  https://mybusiness.googleapis.com/v4/accounts/{thekusheryprimary@gmail.com}/locations/{Last Stop Pot Shop}/reviews
   </script>
 
 
@@ -32,11 +36,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/instafeed.js"></script>
   
-  
-
-</head>
-
 <header>
+  <br/>
   <!-- Navigation bar implimented from js-->
   <div class="nav-placeholder">
   </div>
@@ -61,8 +62,8 @@
         <br>
         <div class="slideshow">
           <p id="dailySpecials"><b>Daily Specials</b></p>
-          <p id="veteranDiscount">Happy Hour: 8am-9am & 9pm-10pm -- 15% off!</p>
-          <p id="veteranDiscount">10% off for veterans, Seniors, and Medical everyday!</p>
+          <p id="veteranDiscount">Happy Hour: First hour upon opening, and last hour upon closing.</p>
+          <p id="veteranDiscount">10% off for Birthdays, Seniors/Veterans, and Medical everyday!</p>
           <div id="myCarousel" class="carousel slide" data-interval="9000">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -70,16 +71,7 @@
                
                 <ul class="specialtext">
                   <h3>Monday</h3>
-                    <li>Monday Madness</li>
-                    <li>-Golden Tree-</li>
-                    <li> 1g - $10</li>
-                    <li>3.5g - $35</li>
-                    <li>7g - $60</li>
-                    <li>14g - $85</li>
-                    <li>28g - $170</li>
-                    <li>-Golden Tree Productions-</li>
-                    <li>2 pack Joints $2 off</li>
-                    <li>.5g Joints $4</li>
+                 <li>Munchie Monday</li>
                     <li>*All Edibles, CBD and Topicals 15% off!</li>
                   </ul>
                               
@@ -91,10 +83,7 @@
                 <ul class="specialtext">
                   <h3>Tuesday</h3>
                   <li>Big Bag Tuesday</li>
-                 <li>7g - $40</li>
-                  <li>14g - $75</li>
-                  <li>28g - $130</li>
-                  <li>Northwest Cannabis Solution Only 7g & up.</li>
+                  <li>*Infused Joints, Buy 3+ 15% off</li>
                 </ul>
               </div>
 
@@ -103,8 +92,8 @@
                 <ul class="specialtext">
                   <h3>Wednesday</h3>
                     <li>Wax Wednesday</li>
-                    <li>All Waxes, Shatters & Oils 15% off!</li>
-                    <li>Infused Joints, Buy 3 or More 15% off!</li>
+                    <li>*All Waxes, Shatters & Oils 15% off! Excluding Vape Carts.</li>
+                    
                 </ul>
               </div>
 
@@ -112,17 +101,8 @@
                 <!-- <img class="logos_slideshow" src="images/Thursday_Specials.png" alt="Thursday Specials"> -->
                 <ul class="specialtext">
                   <h3>Thursday</h3>
-                   <li>High End Thursday</li>
-                   <li>-Freddys, Western Culture, Clandestine-</li>
-                   <li>1g - $12</li>
-                   <li>2g - $22</li>
-                   <li>3.5g - $40</li>
-                   <li>7g - $80</li>
-                   <li>-Royal Tree Flower-</li>
-                   <li>3.5g - $50</li>
-                   <li>7g - $95</li>
-                   <li>14g - $155</li>
-                   <li>28g - $310</li>
+                  <li>High End Thursday</li>
+                   <li>*High End Flower 15% off</li>
                 </ul>
                 <br>
               </div>
@@ -133,11 +113,11 @@
                 <ul class="specialtext">
                   <h3>Friday</h3>
                     <li>Super Saver Friday</li>
-                    <li>-Good Day to stock up!-</li>
-                    <li> Buy 3 items: 15% off!</li>
-                    <li>Buy 5 items: 20% off!</li>
-                    <li> Buy 7 items: 25% off!</li>
-                    <li> **Minimum of $10 of each</li>
+                    <li>Good Day to stock up!</li>
+                    <li>*Buy 3 items: 15% off!</li>
+                    <li>*Buy 5 items: 20% off!</li>
+                    <li>*Buy 7 items: 25% off!</li>
+                    
                  </ul>
               </div>
 
@@ -146,7 +126,7 @@
                 <ul class="specialtext">
                   <h3>Saturday</h3>
                     <li>Vape Cart SaturDaze</li>                  
-                    <li>All Vape Carts 15% off!</li>              
+                    <li>*All Vape Carts 15% off!</li>              
                  </ul>
 
               </div>
@@ -156,7 +136,7 @@
                 <ul class="specialtext">
                   <h3>Sunday</h3>
                     <li>Customer's Choice</li>
-                    <li>Pick any daily special! its your choice.</li>
+                    <li>*Pick any daily special! its your choice.</li>
                     <li>*Up to 20% off with 7 items*</li>
                     <li>**Cannot be combined with any other discount</li>
                  </ul>
@@ -176,13 +156,15 @@
         </div>
         <br>
 
-          <!-- Menu -->
-          <div class="menu">
-            <p>*Order online for pickup here!</p>
-            <form action="https://www.leafly.com/dispensary-info/the-last-stop-pot-shop" target="_blank">
-              <input type="submit" value="Online Menu" target="_blank" />
-          </form>
-        </div>
+        <div class="onlineOrdering" style="text-align: center;"> 
+          <p>Order online for in-store pickup!</p>                 
+          <a href="https://www.leafly.com/dispensary-info/the-last-stop-pot-shop" title="Dispensary Reviews" target="_blank"> <img src="https://www.leafly.com/badge/highway-9-collective" /></a>
+              <br/>
+              <br/>         
+          <a class="leafly__button" data-leafly-permalink=the-last-stop-pot-shop data-leafly-id=10157 
+          href="https://www.leafly.com/dispensary-info/the-last-stop-pot-shop">Order Online</a> <script 
+          src="https://public.leafly.com/affiliate-link/v1/affiliate.js"></script>                   
+      </div>
 
         <div class="socialMedia">
           <h3>Make sure to follow us and stay connected!</h3>
@@ -198,9 +180,10 @@
 
           <!-- instafeed div -->
           <div id="instafeed">
-            <!-- SnapWidget -->
-<script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/803278" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+        <!-- LightWidget WIDGET -->
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7855fa61489850b1a746a655e72eeabb.html" 
+        scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:90%;border:0;overflow:hidden;"></iframe>
+
           </div>
         </div>
       </div>
@@ -249,6 +232,11 @@
             <li>
               <img class="logos" src="images/fairwinds.jpg">
             </li>
+            <br>
+            <li>
+              <img class="logos" src="images/perfectCannabis.jpg">
+            </li>
+            <br>
           </ul>
         </div>
       </div>
@@ -272,4 +260,3 @@
 
 </html>
 
-console.loge(todos[1].text());
